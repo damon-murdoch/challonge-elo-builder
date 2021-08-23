@@ -1,0 +1,11 @@
+# Exclude all files in /out
+out/*
+
+# EXCEPT FOR the file that creates the folder
+!out/output_files_go_here
+
+# Exclude all log files
+*.log
+
+# Exclude the config file
+config.py
