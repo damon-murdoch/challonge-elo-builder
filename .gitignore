@@ -1,6 +1,9 @@
 # Exclude all files in /out
 out/*
 
+# Exclude all files in pycache
+*__pycache__
+
 # EXCEPT FOR the file that creates the folder
 !out/output_files_go_here
 
